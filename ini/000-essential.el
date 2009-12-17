@@ -181,6 +181,9 @@
 ;; don't commit trailing whitespace
 (setq-default show-trailing-whitespace t)
 (setq-default default-indicate-empty-lines t)
+
+;; enables 'a' so as to avoid accumulation of Dired buffers
+(put 'dired-find-alternate-file 'disabled nil)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
