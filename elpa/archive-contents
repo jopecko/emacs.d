@@ -1,4 +1,12 @@
 (1
+ (yaml-mode .
+	    [(0 0 5)
+	     nil "Major mode for editing YAML files" single])
+ (rspec-mode .
+	     [(0 2)
+	      ((ruby-mode
+		(1 1)))
+	      "Enhance ruby-mode for RSpec" single])
  (htmlize .
 	  [(1 37)
 	   nil "Convert buffer text and decorations to HTML." single])
