@@ -28,7 +28,7 @@
  ido-use-filename-at-point nil    ; don't use filename at point (annoying)
  ido-use-url-at-point nil         ;  don't use url at point (annoying)
  ido-enable-flex-matching t       ; be flexible
- ido-max-prospects 4              ; don't spam my minibuffer
+ ;;ido-max-prospects 4              ; don't spam my minibuffer
  ido-confirm-unique-completion t) ; wait for RET, even with unique completion
 
 (defun ido-find-file-in-tag-files ()
