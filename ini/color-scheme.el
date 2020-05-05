@@ -65,8 +65,8 @@
      (speedbar-selected-face ((t (:foreground "red"))))
      (speedbar-highlight-face ((t (:background "green"))))
      (ff-paths-non-existant-file-face ((t (:foreground "NavyBlue" :bold t))))
-     (show-paren-match-face ((t (:background "light blue"))))
-     (show-paren-mismatch-face ((t (:foreground "white" :background "purple")))))))
+     (show-paren-match ((t (:background "light blue"))))
+     (show-paren-mismatch ((t (:foreground "white" :background "purple")))))))
 
 (defun color-theme-billc1 ()
   "Bill Clementson's black background custom color theme."

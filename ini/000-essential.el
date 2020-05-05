@@ -87,7 +87,7 @@
 (icomplete-mode t)                       ; completion in minibuffer
 (setq icomplete-prospects-height 2)      ; don't spam my minibuffer
 
-(partial-completion-mode t)              ; be smart with completion
+;(partial-completion-mode t)              ; be smart with completion
 
 (setq scroll-margin 1                    ; do smooth scrolling, ...
   scroll-conservatively 100000           ; ... the defaults ...
@@ -164,11 +164,11 @@
   (show-paren-mode t)
   (setq show-paren-delay 0)
   (setq show-paren-style 'parenthesis) ; alternatives 'parenthesis' and 'mixed'
-  (set-face-background 'show-paren-match-face (face-background 'default))
-  (set-face-foreground 'show-paren-match-face "white")
-  (set-face-attribute 'show-paren-match-face nil :weight 'extra-bold)
-  (set-face-foreground 'show-paren-mismatch-face "red")
-  (set-face-attribute 'show-paren-mismatch-face nil
+  (set-face-background 'show-paren-match (face-background 'default))
+  (set-face-foreground 'show-paren-match "white")
+  (set-face-attribute 'show-paren-match nil :weight 'extra-bold)
+  (set-face-foreground 'show-paren-mismatch "red")
+  (set-face-attribute 'show-paren-mismatch nil
                       :weight 'extra-bold
                       :underline t
                       :overline nil

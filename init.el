@@ -18,10 +18,10 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; ELPA
-(let ((fn (expand-file-name "~/.emacs.d/elpa/package.el")))
-  (when (file-readable-p fn)
-    (load fn)
-    (package-initialize)))
+;(let ((fn (expand-file-name "~/.emacs.d/elpa/package.el")))
+;  (when (file-readable-p fn)
+;    (load fn)
+;    (package-initialize)))
 ;;(when (load (expand-file-name "~/.emacs.d/elpa/package.el"))
 ;;  (package-initialize))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
